@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+    font-family:'Playfair Display' ;
+}
+
+.fondo__image{
+    width: 99vw;
+    height: 99vh;
+    box-sizing: border-box;
+    background-color: #fff;
+    background: url("https://img.freepik.com/premium-photo/barbie-house-firehouse-adventure-generative-ai_934475-16306.jpg") 100% / cover no-repeat fixed #fff ;
+    
+}
+.header__nav{
+    margin-top: 0;
+    width: 100%;
+    height: 55px;
+    background-color: deeppink;
+    position: relative;
+    
+}
+.header__list{
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.header__item{
+    display: inline-block;
+    margin-top: 0;
+    
+
+}
+.header__link{
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 7px 30px;
+    padding: 9px 15px;
+    text-decoration: none;
+    transition: background-color 1s ease 0s;
+    border-radius: 5px;
+    
+    
+}
+.header__link:hover{
+    background-color: #FFC0CB;
+}
+
+.content{
+    width: 350px;
+    height: 80px;
+    position: absolute;
+    color: #fff;
+    top: 45%;
+    left: 18%;
+    transition: transform 0.45s ease-in-out;
+}
+.content:hover{
+    transform: scale(1.1);
+}
+.content__title{
+    font-weight: bolder;
+    font-size: 45px;
+    margin: 0;
+}
+.content__text{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.image{
+    width: 450px;
+    height: 430px;
+    background-image: url("https://th.bing.com/th/id/R.999efaa70815bfd2a4071ee438bb130e?rik=AX8nmL9Ra1lsSg&riu=http%3a%2f%2f3.bp.blogspot.com%2f-wWjNE2JSN0w%2fVDiiuZx_A3I%2fAAAAAAAABGc%2fbx5nkxYQLuo%2fs1600%2fBarbie-Cute-Wallpaper-Computer.jpg&ehk=yaeeVmOGOMH3CrhgoFxl6rhj9vWR7xaO%2f1OYZpXdRGM%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 630px;
+    left: 210px;
+    z-index: 10;
+    outline: 2px solid #fcfcfc;
+    border: 1px solid #fff;
+    border-radius: 25px ;
+    box-shadow: 0 0 45px 20px #fcfcfc;
+    transition: transform 0.5s ease-in-out, outline 0.5s ease-out , outline-offset 0.5s ease-in-out ;
+    
+}
+.image:hover{
+    outline-offset: 15px;
+    transform: scale(0.95);
+
+}
+
+
+.introducion{
+    margin-top: 0;
+    width: 99vw;
+    height: 99vh;
+    background-color: #FADADD;
+    position: relative;
+}
+
+
+.content__introducion{
+    width: 260px;
+    height: 270px;
+    background-color: #E0218A;
+    color: #fff;
+    position: absolute;
+    top: 160px;
+    left: 600px;
+    z-index: 20;
+    font-size: 15px;
+    border-radius: 25px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #fcfcfc;
+    outline: 2px solid #fcfcfc;
+    transition: transform 0.5s ease-in-out, outline 0.5s ease-in-out, outline-offset 0.5s ease-in-out;
+    box-shadow:0 0 45px 15px #fcfcfc ;
+    background: linear-gradient(to top, #FFC0CB, #E0218A);
+    padding: 10px;
+    
+    
+
+}
+
+
+.content__introducion:hover{
+    outline-offset: 10px;
+    transform: scale(0.90);
+}
+.content__introducion__title{
+    margin: 25px;
+}
+.content__introducion__text{
+    padding: 10px;
+}
+.menu {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #FADADD;
+    text-align: center;
+}
+
+.menu__title {
+    font-size: 32px;
+    color: deeppink;
+    margin-bottom: 40px;
+}
+
+.menu__content {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    border-radius: 25px;
+    border: 2px solid #E0218A;
+    outline: 2px solid #E0218A;
+    outline-offset: 5px;
+    padding: 20px;
+}
+.colum__right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+
+}
+
+.menu__column {
+    width: 45%;
+}
+
+.menu__subtitle {
+    font-size: 24px;
+    color: #E0218A;
+}
+
+.menu__item {
+    background-color: #fce4ec;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px 0;
+    transition: transform 0.30s ease-in-out;
+}
+.menu__item:hover{
+    transform: scale(1.05);
+
+}
+
+.menu__name {
+    display: block;
+    font-weight: bold;
+    color: #C2185B;
+}
+
+.menu__price {
+    display: block;
+    font-size: 18px;
+    color: #E91E63;
+}
+
+.menu__desc {
+    font-size: 14px;
+    color: #444;
+    border: none;
+    border-bottom: 1px solid #999;
+    padding-bottom: 15px;
+}
